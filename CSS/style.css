@@ -791,12 +791,21 @@ h3.my-profession{
     }
     .about .about-content .education,
     .about .about-content .experience,
+    .home .home-img,
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
     }
     .home .home-img{
-        display: none;
+        display: flex;
+        justify-content: center;
+    }
+    .home .home-img{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .home .home-img img{
+        min-width: 270px;
     }
 }
 @media (max-width:765px){
